@@ -35,3 +35,7 @@ gcc calculator.c -o calculator.out
 ./calculator.out 
 ./calculator.out 
 exit
+gcc calculator.c -o calculator.out
+./calculator.out 
+./calculator.out 
+exit

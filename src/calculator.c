@@ -29,9 +29,10 @@ int main() {
       printf("Answer = %.0Lf", result);
       break;
     case '&':
-    while (first != 0) {
-      second /= result;
-      --first;
+    while (second != 0) {
+      result = first;
+      
+      --second;
     }
       printf("Answer = %.0Lf", result);
       break;
